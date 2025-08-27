@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redações</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Redações</h1>
+    <form action="Controlador" method="post">
+        <label for="codigo">Código:</label>
+        <input type="number" name="txtCodigo" id="codigo"><br>
+
+        <label for="titulo">Título:</label>
+        <input type="text" name="txtTitulo" id="titulo"><br>
+
+        <label for="texto">Texto:</label><br>
+        <textarea name="txtTexto" id="texto" rows="10" cols="50"></textarea><br>
+
+        <label for="nota">Nota:</label>
+        <input type="number" name="txtNota" id="nota" step="0.1" min="0" max="10"><br><br>
+
+        <input type="submit" value="Cadastrar" name="b1"> &nbsp;&nbsp;
+        <input type="submit" value="Listar" name="b1"> &nbsp;&nbsp;
+        <input type="submit" value="Consultar Título" name="b1"> &nbsp;&nbsp;
+        <input type="submit" value="Consultar por Nota" name="b1"> &nbsp;&nbsp;
+        <input type="submit" value="Estatísticas de Notas" name="b1"> &nbsp;&nbsp;
+    </form>
+</body>
+</html>
